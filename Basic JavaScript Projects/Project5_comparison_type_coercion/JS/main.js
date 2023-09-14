@@ -43,3 +43,5 @@ document.write((10<2 || 2>3) + "<BR>");
 function not_Function (){                  // ! determines logic and returns the opposite
     document.getElementById("Not").innerHTML = !(20>10);
 }
+
+document.write((5 > 1) ? "L is bigger": "R is bigger" + "<BR>"); // ternary operators
