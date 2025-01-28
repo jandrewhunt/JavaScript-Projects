@@ -55,3 +55,9 @@ function rounding () {
     var NI = 4.567;
     document.getElementById("Math_8").innerHTML = Math.round (NI) + " - Phew!"
 }
+
+// multiple operations //
+function multiple_operators () {
+    var mult_ops = (1+2) * 10 / 2 -5;
+    document.getElementById("Math_10").innerHTML = "1 plus 2, multiplied by 10, divided by 2, and then subtracted by 5 equals " + mult_ops;
+}
