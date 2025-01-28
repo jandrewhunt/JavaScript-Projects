@@ -6,4 +6,8 @@ document.write("If you're outside, say:" + " Yeah, Yeah."); //using document.wri
 document.write(B); //using document.writer method with var B
 var Family = " Bayer-Hunt", Father = " Steve", Mother = "Cecily", Son = "Jeremy", Son = "Nathaniel"; //multiple variable in statement
 document.write(Father + Family); //using document writer and concatenating variables
-document.write( 3 + 3); //an expression
+document.write(3 + 3); //an expression
+let C = "HELLO!";
+document.write(C);
+var D = 5;
+document.write(D + 5) 
